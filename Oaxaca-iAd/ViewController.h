@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <iAd/iAd.h>
-@interface ViewController : UIViewController<UIApplicationDelegate>
+@interface ViewController : UIViewController<UIApplicationDelegate,ADBannerViewDelegate>
 {
     ADBannerView *adView;
-    BOOL barnerIsVisible;
+    BOOL bannerIsVisible;
 }
 @end
 
